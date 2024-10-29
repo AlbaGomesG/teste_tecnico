@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.checkout01 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.checkout02 {
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    background-color: lightgray;
+    height: auto;
+    border-radius: 35px;
+    display: flex;
+    margin: 3%;
+}
+
+.produto {
+    width: 50%;
+    height: 35%;
+    margin: 5%;
+}
+
+.conteudo {
+    margin: 5%;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 35px;
+}
+
+.tenis {
+    display: flex;
+    flex-direction: row;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-start;
+    margin: 3%;
+    width: 35%;
+}
+
+.image-cartao {
+    display: flex;
+    align-items: center;
+
+}
+
+.sneakers {
+    margin: 5%;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20%;
+}
