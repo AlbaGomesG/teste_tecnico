@@ -7,7 +7,7 @@
 main {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 125vh;
     background-color: lightgray;
 }
 
@@ -74,24 +74,59 @@ p{
 
 }
 
-.sneakers {
-    margin: 5%;
-}
-
 .Checkout{
     margin: 5%;
     padding: 25px;
 }
 
-.line {
-    margin: 50px 150px;
-    width: 450px;
-    display: flex;
-    justify-content: flex-start;
+.Pay{
+    margin: 5%;
+    padding: 20px;
 }
 
-.menu {
+.line {
+    margin: 5px;
+    width: 500px;
+}
+
+.line-pay{
+    width: 150px;
+}
+
+.header-black{
     display: flex;
-    justify-content: flex-end;
-    margin: 20%;
+    margin: 10px;
+}
+
+.tchola {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 41vw;
+}
+
+h3 {
+    position: relative;
+    right: 0px;
+}
+
+.img-menu{
+    width: 30px;
+    position: absolute;
+    right: 10px;
+}
+
+.img-pay{
+    position: absolute;
+    right: 250px;
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    right: 0px;
 }
