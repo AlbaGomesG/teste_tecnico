@@ -103,7 +103,7 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 41vw;
+    width: 1vw;
 }
 
 h3 {
@@ -119,14 +119,52 @@ h3 {
 
 .img-pay{
     position: absolute;
-    right: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    right: 200px;
 }
 
-.payment{
+.images-cartão{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.tchola-1 {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    position: relative;
-    right: 0px;
+    width: 41vw;
+    margin: 5px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    height: 50px;
+    gap: 50px;
+}
+
+.btn-red {
+    background-color: #EC1B1B;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-blue {
+    background-color: #3F9EF7;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
 }
